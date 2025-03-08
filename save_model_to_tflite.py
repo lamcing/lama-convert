@@ -20,8 +20,8 @@ LOGGER = logging.getLogger(__name__)
 
 print('load model')
 
-model_dir = 'places_lama'  # 'big-lama'
-# model_dir = 'big-lama'  # 'big-lama'
+# model_dir = 'places_lama'  # 'big-lama'
+model_dir = 'big-lama'  # 'big-lama'
 
 checkpoint_path = f'{model_dir}/models/best.ckpt'
 train_config_path = os.path.join(model_dir, 'config.yaml')
